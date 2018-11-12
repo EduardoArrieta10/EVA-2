@@ -1,0 +1,7 @@
+mATERIAS = True
+sERVICIO = True
+rESI = True
+if mATERIAS == True and sERVICIO == True and rESI == True:
+    print("Te puedes titular")
+else:
+    print("No te puedes titular")

@@ -1,0 +1,16 @@
+print("Ingrese un año = ")
+iAño = int(input())
+iBis = float(iAño) / 4
+iBis2 = float(iAño) / 100
+iBis3 = float(iAño) / 400
+if iBis * 4 == iAño:
+    print("Año bisiesto")
+    if iBis2 * 100 == iAño:
+        if iBis3 * 400 == iAño:
+            print("Año bisiesto")
+        else:
+            print("No año bisiesto")
+    else:
+        print("Bisiesto")
+else:
+    print("No es año bisiesto")

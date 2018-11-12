@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-10-03 09:27:23 a. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzIwNDY7MjAxOC0xMC0wMzswOToxNzowMyBhLiBtLjsyOTQ2"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzIwNDY7MjAxOC0xMC0wMzswOToyNzoyMyBhLiBtLjsxOzMwNTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Cual Es Tu Edad?&quot;" newline="True"/>
+            <declare name="Eda" type="Integer" array="False" size=""/>
+            <input variable="Eda"/>
+            <if expression="Eda &gt;= 18">
+                <then>
+                    <output expression="&quot;Es mayor de edad&quot;" newline="True"/>
+                    <output expression="&quot;&#191;Tienes INE?&quot;" newline="True"/>
+                    <declare name="Resp" type="Boolean" array="False" size=""/>
+                    <input variable="Resp"/>
+                    <if expression="Resp = true">
+                        <then>
+                            <output expression="&quot;Puedes Pasar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;No puedes pasar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;No es mayor de edad&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,8 @@
+3iAño = 1996
+iResi4 = iAño % 4
+iResi100 = iAño % 100
+iResi400 = iAño % 400
+if iResi4 == 0 and (not iResi100 == 0 or iResi400 == 0):
+    print("Es bisiesto")
+else:
+    print("No es bisiesto")

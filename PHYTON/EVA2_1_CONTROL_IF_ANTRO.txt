@@ -1,0 +1,11 @@
+edad = print("¿Cual es tu edad?")
+if edad >= 18:
+    ine = input("Eres mayor de edad, ¿Tienes Ine? S = si, N = no ")
+    if ine == "S":
+        print("Puedes pasar")
+    else:
+        print("No puedes entrar")
+else: 
+    print("No puedes entrar, ¡Hasta la próxima!")
+
+

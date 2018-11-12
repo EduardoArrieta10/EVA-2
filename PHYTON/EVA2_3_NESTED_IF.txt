@@ -1,0 +1,15 @@
+print("INTRODUCE TU CALIFICACION")
+califa = int(input())
+if califa == 70:
+    print("Tienes D")
+else:
+    if califa == 80:
+        print("Tienes C")
+    else:
+        if califa == 90:
+            print("Tienes B")
+        else:
+            if califa == 100:
+                print("Tienes A")
+            else:
+                print("Calificacion fuera de rango")

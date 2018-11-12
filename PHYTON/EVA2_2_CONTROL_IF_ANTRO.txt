@@ -1,0 +1,9 @@
+edad = input("¿Eres mayor de edad?")
+
+ine = input("¿Tienes INE?")
+
+if edad == "S" and ine == "S":
+    print("Entrele morro")
+else:
+    print("No entras")
+
